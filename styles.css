@@ -1,4 +1,5 @@
 /* RESET STYLES
+
 Intuitive box-sizing */
 *, *::before, *::after {
     box-sizing: border-box ;
@@ -8,4 +9,62 @@ Intuitive box-sizing */
 * {
     margin: 0;
 }
-/************BEGIN***************/
+/************BEGIN**STYLES*************/
+
+.container {
+    width: 80%;
+    margin: 8px auto;
+    background-image: url("images/background.png");
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    display: block;
+    font-family: 'Griffy', 'Comic Sans MS', cursive, sans-serif;
+    background-color: rgba(0, 0, 0, 0.298);
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+h2 > a {
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+}
+
+.title-header {
+    font-size: 4rem;
+    color: #ff2aad;
+    border: 4px solid sandybrown;
+    text-shadow: 0 0 5px #39ffbd, 0 0 10px #ffee32;
+}
+
+.breakfast {
+    border: 4px solid yellowgreen;
+}
+
+.tiger {
+    border: 4px solid turquoise;
+}
+
+.ceviche {
+    border: 4px solid rgb(255, 107, 218);
+}
+
+.breakfast > a {
+    color: rgb(255, 240, 71);
+    text-shadow: 0 0 5px rgb(128, 225, 86), 0 0 10px rgb(249, 208, 235);
+}
+
+.tiger > a {
+    color: rgb(238, 253, 183);
+    text-shadow: 0 0 5px rgb(255, 118, 118), 0 0 10px burlywood;
+}
+
+.ceviche > a {
+    color: rgb(68, 255, 84);
+    text-shadow: 0 0 5px turquoise, 0 0 10px darkorange;
+}
