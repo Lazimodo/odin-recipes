@@ -11,10 +11,14 @@ Intuitive box-sizing */
 }
 /************BEGIN**STYLES*************/
 
+.container-main {
+    background-image: url("images/sunset.png");
+}
+
 .container {
     width: 80%;
     margin: 8px auto;
-    background-image: url("images/background.png");
+    /*background-image: url("images/background.png");*/
     border-radius: 10px;
 }
 
