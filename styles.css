@@ -13,6 +13,7 @@ Intuitive box-sizing */
 
 .container-main {
     background-image: url("images/sunset.png");
+    background-repeat: no-repeat;
 }
 
 .container {
